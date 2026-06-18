@@ -19,4 +19,4 @@ A to-do list with many features, such as priority, due date, and a search box, a
 I made this project to practice my skills in Javascript and create new projects to learn more.
 
 ### Important Note:
-I used AI in writing the JavaScript code because I am still learning JavaScript and I think If there is another project similar to this project I will be able to do it alone without any AI usage, as I learned some important causes
+I didn't make too much commits because I still wasn't experienced enough to know this method in VS code and Github. And I used AI to assist me in writing the JavaScript code.
