@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>To Do List <img src="icon.png"> <button id="dark-mode" onclick="change()" style="margin-left: auto; background: none; border: none; font-size: 24px; cursor: pointer;">🌙</button> </h2>
+            <div class="search-container">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-box" placeholder="Search for a Task..." onkeyup="searchTasks()" class="search-input">
+
+            </div>
+            <div class="row">
+                <input type="text" id="input-box" placeholder="Add your task...">
+                <input type="date" id="date-box" class="extra">
+                <select id="priority-box" class="extra">
+                    <option value="" disabled selected hidden>Priority</option>
+                    <option value="high">🔴High</option>
+                    <option value="med">🟡Medium</option>
+                    <option value="low">🟢Low</option>
+                </select>
+                <button onclick="addTask()">Add</button>
+            </div>
+            <ul id="list-container">
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
